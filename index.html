@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+  <body class="bg-very-dark-blue">
+    <main class="flex flex-col md:flex-row-reverse h-screen justify-center items-center overflow-x-hidden">
+      <div class="h-[30rem] w-[26rem] mt-40 md:w-[34rem] md:mt-0 bg-accent rounded-t-md md:rounded-tl-none md:rounded-r-md">
+        <img src="images/image-header-desktop.jpg" alt="" class="mix-blend-multiply hidden md:block size-full rounded-r-md object-cover">
+        <img src="images/image-header-mobile.jpg" alt="" class="mix-blend-multiply block md:hidden size-full rounded-t-md object-cover">
+      </div>
+      <div class="bg-card-background mb-10 w-[26rem] h-[44rem] md:w-[34rem] rounded-b-md md: md:rounded-l-md md:rounded-br-none md:h-[30rem] md:mb-0">
+        <h1 class="text-4xl px-20 mt-20 text-white font-lexend_deca text-center md:text-left">Get <strong class="text-accent">insights</strong> that help your business grow.</h1>
+        <p class="text-base px-20 mt-8 text-paragraph font-body text-center md:text-left">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+          experience, and overall efficiency.</p>
+        <div class="flex flex-col md:flex-row text-center mt-14 md:mt-24 md:text-left">
+          <hgroup class="md:pl-20">
+            <h2 class="text-white text-3xl font-body font-bold">10k+</h2>
+            <p class="text-stats uppercase font-body tracking-wider text-base">companies</p>
+          </hgroup>
+          <hgroup class="pt-10 md:pl-20 md:pt-0">
+            <h2 class="text-white text-3xl font-body font-bold">314</h2>
+            <p class="text-stats uppercase font-body tracking-wider text-base">templates</p>
+          </hgroup>
+          <hgroup class="pt-10 md:pl-20 md:pt-0">
+            <h2 class="text-white text-3xl font-body font-bold">12M+</h2>
+            <p class="text-stats uppercase font-body tracking-wider text-base">queries</p>
+          </hgroup>
+        </div>
+        <div class="attribution mt-2">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Austino</a>.
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
